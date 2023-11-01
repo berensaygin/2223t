@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  int vize1;
+  int final1;
+  int carpim1;
+  int carpim2;
+  int aritmetik;
+  int ortalama;
+  int deger;
+  
+    printf("vize notunu giriniz\n");
+    scanf("%d", &vize1 );
+    carpim1=vize1*40/100;
+   
+    
+    printf("final notunu giriniz\n");
+    scanf("%d", &final1 );
+    carpim2=final1*60/100;
+    
+    
+    aritmetik=carpim1+carpim2;
+    ortalama= aritmetik/2;
+     printf("%d\n" ,ortalama);
+     if(ortalama>50 && final1>50)
+     printf( "imtihanı geçtiniz");
+     else
+     printf( "sınavı geçemediniz");
+     
+}  
