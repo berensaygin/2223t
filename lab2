@@ -24,7 +24,7 @@ int main()
     ortalama= aritmetik/2;
      printf("%d\n" ,ortalama);
      if(ortalama>50 && final1>50)
-     printf( "imtihanı geçtiniz");
+     printf( "sınavı geçtiniz");
      else
      printf( "sınavı geçemediniz");
      
