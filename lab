@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int N, i, toplam = 0;
+
+    // Kullanıcıdan N sayısını alın
+    printf("N sayisini girin: ");
+    scanf("%d", &N);
+
+    // 1'den N'e kadar olan tek sayıların karelerini topla
+    for (i = 1; i <= N; i += 2) {
+        toplam += i * i;
+    }
+
+    // Sonucu ekrana yazdır
+    printf("1'den %d'e kadar olan tek sayilarin kareleri toplami: %d\n", N, toplam);
+
+    return 0;
+}
